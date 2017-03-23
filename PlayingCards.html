@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Playing Cards</title>
+	<style type="text/css">
+		body, html {
+    height: 100%;
+    margin: 0;
+}
+	body{
+        background-image: url(pc.jpg);
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+             width: 650px;
+            height: 650px;
+           position: absolute;
+              top: 60%;
+              left: 50%;
+             margin-left: -325px;
+             margin-top: -325px;
+             overflow-y: hidden;;
+
+    }	
+
+	</style>
+
+</head>
+<body align="center">
+    <script type="text/javascript">
+        var c=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+        var o=[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43,p44,p45,p46,p47,p48,p49,p50,p51,p52];
+        
+       document.writeln("<h1> Player 1 </h1>");
+        while(1)
+        {
+           var c1=Math.floor(Math.random()*52+1);
+           if(c[c1-1]==0)
+             var c1=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c1-1]=0;
+              o[c1-1]();
+              break;
+            }
+        }
+        document.write("\n\n\n");
+        while(1)
+        {
+           var c2=Math.floor(Math.random()*52+1);
+           if(c[c2-1]==0)
+             var c2=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c2-1]=0;
+            o[c2-1]();
+               break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c3=Math.floor(Math.random()*52+1);
+           if(c[c3-1]==0)
+             var c3=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c3-1]=0;
+          o[c3-1]();
+             break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c4=Math.floor(Math.random()*52+1);
+           if(c[c4-1]==0)
+             var c4=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c4-1]=0;
+           o[c4-1]();
+                break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c5=Math.floor(Math.random()*52+1);
+           if(c[c5-1]==0)
+             var c5=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c5-1]=0;
+          o[c5-1]();
+                 break;
+            }
+        }
+      
+      document.write("<br>");
+      document.writeln("<h1> Player 2 </h1>");
+        while(1)
+        {
+           var c6=Math.floor(Math.random()*52+1);
+           if(c[c6-1]==0)
+             var c6=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c6-1]=0;
+            o[c6-1]();
+              break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c7=Math.floor(Math.random()*52+1);
+           if(c[c7-1]==0)
+             var c7=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c7-1]=0;
+              o[c7-1]();
+              break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c8=Math.floor(Math.random()*52+1);
+           if(c[c8-1]==0)
+             var c8=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c8-1]=0;
+            o[c8-1]();
+                 break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c9=Math.floor(Math.random()*52+1);
+           if(c[c9-1]==0)
+             var c9=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c9-1]=0;
+            o[c9-1]();
+              break;
+            }
+        }
+         document.write("\n\n\n");
+        while(1)
+        {
+           var c10=Math.floor(Math.random()*52+1);
+           if(c[c10-1]==0)
+             var c10=Math.floor(Math.random()*52+1);
+           else
+            {
+              c[c10-1]=0;
+              o[c10-1]();
+             break;
+            }
+        }
+   
+    
+    function p1() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "1.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Ace...Club");
+    document.body.appendChild(x);
+}
+ function p2() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "2.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Ace...Diamond");
+    document.body.appendChild(x);
+}
+ function p3() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "3.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Ace...Heart");
+    document.body.appendChild(x);
+}
+ function p4() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "4.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Ace...Spade");
+    document.body.appendChild(x);
+}
+ function p5() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "5.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "2...Club");
+    document.body.appendChild(x);
+}
+ function p6() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "6.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "2...Diamond");
+    document.body.appendChild(x);
+}
+ function p7() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "7.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "2...Heart");
+    document.body.appendChild(x);
+}
+ function p8() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "8.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "2...Spade");
+    document.body.appendChild(x);
+}
+ function p9() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "9.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "3...Club");
+    document.body.appendChild(x);
+}
+ function p10() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "10.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "3...Diamond");
+    document.body.appendChild(x);
+}
+ function p11() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "11.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "3...Heart");
+    document.body.appendChild(x);
+}
+ function p12() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "12.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "3...Spade");
+    document.body.appendChild(x);
+}
+ function p13() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "13.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "4...Club");
+    document.body.appendChild(x);
+}
+ function p14() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "14.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "4...Diamond");
+    document.body.appendChild(x);
+}
+ function p15() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "15.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "4...Heart");
+    document.body.appendChild(x);
+}
+ function p16() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "16.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "4...Spade");
+    document.body.appendChild(x);
+}
+ function p17() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "17.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "5...Club");
+    document.body.appendChild(x);
+}
+ function p18() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "18.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "5...Diamond");
+    document.body.appendChild(x);
+}
+ function p19() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "19.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "5...Heart");
+    document.body.appendChild(x);
+}
+ function p20() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "20.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "5...Spade");
+    document.body.appendChild(x);
+}
+function p21() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "21.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "6...Club");
+    document.body.appendChild(x);
+}
+ function p22() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "22.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "6...Diamond");
+    document.body.appendChild(x);
+}
+ function p23() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "23.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "6...Heart");
+    document.body.appendChild(x);
+}
+ function p24() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "24.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "6...Spade");
+    document.body.appendChild(x);
+}
+ function p25() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "25.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "7...Club");
+    document.body.appendChild(x);
+}
+ function p26() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "26.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "7...Diamond");
+    document.body.appendChild(x);
+}
+ function p27() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "27.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "7...Heart");
+    document.body.appendChild(x);
+}
+ function p28() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "28.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "7...Spade");
+    document.body.appendChild(x);
+}
+ function p29() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "29.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "8...Club");
+    document.body.appendChild(x);
+}
+ function p30() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "30.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "8...Diamond");
+    document.body.appendChild(x);
+}
+ function p31() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "31.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "8...Heart");
+    document.body.appendChild(x);
+}
+ function p32() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "32.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "8...Spade");
+    document.body.appendChild(x);
+}
+ function p33() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "33.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "9...Club");
+    document.body.appendChild(x);
+}
+ function p34() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "34.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "9...Diamond");
+    document.body.appendChild(x);
+}
+ function p35() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "35.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "9...Heart");
+    document.body.appendChild(x);
+}
+ function p36() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "36.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "9...Spade");
+    document.body.appendChild(x);
+}
+ function p37() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "37.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "10...Club");
+    document.body.appendChild(x);
+}
+ function p38() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "38.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "10...Diamond");
+    document.body.appendChild(x);
+}
+ function p39() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "39.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "10...Heart");
+    document.body.appendChild(x);
+}
+ function p40() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "40.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "10...Spade");
+    document.body.appendChild(x);
+}
+function p41() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "41.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Jack...Club");
+    document.body.appendChild(x);
+}
+ function p42() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "42.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Jack...Diamond");
+    document.body.appendChild(x);
+}
+ function p43() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "43.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Jack...Heart");
+    document.body.appendChild(x);
+}
+ function p44() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "44.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Jack...Spade");
+    document.body.appendChild(x);
+}
+ function p45() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "45.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Queen...Club");
+    document.body.appendChild(x);
+}
+ function p46() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "46.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Queen...Diamond");
+    document.body.appendChild(x);
+}
+ function p47() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "47.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Queen...Heart");
+    document.body.appendChild(x);
+}
+ function p48() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "48.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "Queen...Spade");
+    document.body.appendChild(x);
+}
+ function p49() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "49.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "King...Club");
+    document.body.appendChild(x);
+}
+ function p50() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "50.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "King...Diamond");
+    document.body.appendChild(x);
+}
+function p51() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "51.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "King...Heart");
+    document.body.appendChild(x);
+}
+ function p52() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "52.png");
+    x.setAttribute("width", "120");
+    x.setAttribute("height", "120");
+    x.setAttribute("alt", "King...Spade");
+    document.body.appendChild(x);
+}
+   </script>
+
+</body>
+</html>
